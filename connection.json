@@ -1,0 +1,6 @@
+{
+  "openstack_auth_url": "https://iad2.dream.io:5000/",
+  "openstack_username": "YOUR_DHC_USERNAME",
+  "openstack_api_key": "YOUR_DHC_API_KEY",
+  "openstack_tenant": "YOUR_DHC_TENANT_ID"
+}
