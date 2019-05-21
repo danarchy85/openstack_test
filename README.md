@@ -1,10 +1,10 @@
 # openstack_test
 
 Requirements:<br />
-	Operating System shouldn't matter: I'm using Fedora and Gentoo<br />
-	`yum install ruby git`<br />
-	`gem install fog-openstack`<br />
-	Populate contents of 'connection.json' with your API key<br /><br />
+	* Operating System shouldn't matter: I'm using Fedora and Gentoo<br />
+	* `yum install ruby git`<br />
+	* `gem install fog-openstack`<br />
+	* Populate contents of 'connection.json' with your API key<br /><br />
 
 This is what output of the script should look like if it can successfully connecto to OpenStack/DHC and gather the count of instances and security groups in the account:
 
