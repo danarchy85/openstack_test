@@ -13,7 +13,6 @@ if os
 
   puts "Checking instance count..."
   instances = os.servers.count
-  end
 
   if instances
     puts "Instance Count: #{instances}"
@@ -23,7 +22,6 @@ if os
 
   puts "Checking security group count..."
   secgroups = os.security_groups.count
-  end
 
   if secgroups
     puts "Security Group Count: #{secgroups}"
