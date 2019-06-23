@@ -10,7 +10,7 @@ This is what output of the script should look like if it can successfully connec
 
 ```
 $ ./openstack_test.rb
-Conecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
 Successfully connected to OpenStack!
 Checking instance count...
 Instance Count: 7
@@ -25,23 +25,23 @@ To test on my instance, I run it in a loop passing stderr to /dev/null since it 
 
 ```
 [fedora@fedora-test-1 ~]$ while true ; do ./openstack_test.rb 2>/dev/null  ; done
-Conecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
 Successfully connected to OpenStack!
 Checking instance count...
-Conecting to OpenStack: https://iad2.dream.io:5000/
-Conecting to OpenStack: https://iad2.dream.io:5000/
-Conecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
 Successfully connected to OpenStack!
 Checking instance count...
 Instance Count: 7
 Checking security group count...
-Conecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
 Successfully connected to OpenStack!
 Checking instance count...
-Conecting to OpenStack: https://iad2.dream.io:5000/
-Conecting to OpenStack: https://iad2.dream.io:5000/
-Conecting to OpenStack: https://iad2.dream.io:5000/
-Conecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
+Connecting to OpenStack: https://iad2.dream.io:5000/
 ^C
 ```
 

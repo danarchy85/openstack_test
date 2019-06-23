@@ -5,7 +5,7 @@ require 'fog/openstack'
 
 connection = JSON.parse(File.read('./connection.json'), symbolize_names: true)
 
-puts "Conecting to OpenStack: #{connection[:openstack_auth_url]}"
+puts "Connecting to OpenStack: #{connection[:openstack_auth_url]}"
 os = Fog::OpenStack::Compute.new(connection)
 
 if os
