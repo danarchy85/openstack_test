@@ -1,5 +1,12 @@
 {
   "openstack_auth_url": "https://iad2.dream.io:5000/",
   "openstack_username": "YOUR_DHC_USERNAME",
-  "openstack_api_key": "YOUR_DHC_API_KEY"
+  "openstack_api_key": "YOUR_DHC_API_KEY",
+  "connection_options": {
+    "connect_timeout": 90,
+    "read_timeout": 90,
+    "write_timeout": 90,
+    "debug_request": true,
+    "debug_response": true
+  }
 }
